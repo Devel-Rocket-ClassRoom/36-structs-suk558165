@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CodingPractice\CodingPractice.csproj" />
+  <Project Path="ColorRGB\ColorRGB.csproj" />
+  <Project Path="InventoryItem\InventoryItem.csproj" />
+  <Project Path="RecipeCard\RecipeCard.csproj" />
+</Solution>
