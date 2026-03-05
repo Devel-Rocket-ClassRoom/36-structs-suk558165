@@ -9,19 +9,3 @@ Console.WriteLine($"빨강 - R: {red.R}, G: {red.G}, B: {red.B} → 밝기: {red
 Console.WriteLine($"흰색 - R: {white.R}, G: {white.G}, B: {white.B} → 밝기: {white.GetBrightness()}");
 Console.WriteLine($"커스텀 - R: {custom.R}, G: {custom.G}, B: {custom.B} → 밝기: {custom.GetBrightness()}");
 
-struct ColorRGB
-{
-   public int R;
-   public int G;
-    public int B;
-    public ColorRGB(int r, int g, int b)
-        {
-        R = r;
-        G = g;
-        B = b;
-    }
-    public int GetBrightness()
-    {
-        return (R + G + B) / 3; 
-    }
-}
